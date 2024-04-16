@@ -47,7 +47,6 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("release") {
-                from(components["release"])
                 groupId = "com.github.hilalgunes"
                 artifactId = "TestingLibrary"
                 version = "1.0.0"
