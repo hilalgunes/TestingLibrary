@@ -49,7 +49,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 groupId = "com.github.hilalgunes"
                 artifactId = "TestingLibrary"
-                version = "1.0.0"
+                version = "1.0.3"
                 artifact("$buildDir/outputs/aar/testinglibrary-release.aar")
 
             }
